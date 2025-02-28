@@ -23,11 +23,9 @@ export default function Home() {
       </Head>
       <div>
         <h1>Time Harvest</h1>
-        <h4>A game made by Dumi</h4>
-        <br></br>
+        <h3>A game made by Dumi</h3>
         <p>Time Harvest is a game where you progress through different technologies while trying to become the best farmer there ever was</p>
         <p>You can find it here:</p>
-        <br></br>
         <ul>
           <li><a href="https://n0tm3123.itch.io/time-harvest"><button class="itch">Play it here</button></a></li>
           <li><a href="https://hackclub.slack.com/archives/C08B0TRLQMN"><button class="slack">Follow the game's development here</button></a></li>
