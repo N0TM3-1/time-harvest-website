@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function Home() {
           <li><a href="https://hackclub.slack.com/archives/C08B0TRLQMN"><button class="slack">Follow the game's development here</button></a></li>
         </ul>
       </div>
+      <SpeedInsights />
     </>
   );
 }
