@@ -11,33 +11,55 @@
 html {
     background-image: url(../public/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-}
-h1{
-    font-weight: 100;
-    font-size: 200%;
-}
-h3{
-    font-weight: 100;
-    font-size: 150%;
-}
-
-p{
-    font-size: 120%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     color: var(--text-color);
     font-family: "Jersey 10", sans-serif;
-    font-style: normal;/* Apply the primary font family to the body */
+    font-style: normal; /* Apply the primary font family to the body */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 200%;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 175%;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 150%;
+}
+
+p {
+    font-size: 120%;
+    margin: 0 0 20px 0;
 }
 
 a {
     color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 button {
@@ -65,4 +87,18 @@ button.itch:hover {
 
 button.slack:hover {
     background-color: #36C5F0;
+}
+
+input[type="email"], input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
 }
