@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useState } from "react";
-import { handleSubmit } from "./handleSubmit"; // Import the handleSubmit function
+import { handleSubmit } from "../lib/handleSubmit"; // Import the handleSubmit function
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
