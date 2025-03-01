@@ -42,12 +42,12 @@ export default function Home() {
           <h2>Sign up for a steam key</h2>
           <form onSubmit={(e) => handleSubmit(e, email, username)}>
             <label>Email</label>
-            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <br/>
             <label>Slack Username</label>
-            <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+            <input type="text" id="slack" value={username} onChange={(e) => setUsername(e.target.value)} />
             <br/>
-            <button type="submit">Submit</button>
+            <button type="submit" id="submit">Submit</button>
           </form>
         </div>
       </div>
