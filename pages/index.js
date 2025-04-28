@@ -41,7 +41,7 @@ export default function Home() {
         <div className={styles.signup}>
           <h2>Sign up for a steam key</h2>
           <form onSubmit={(e) => handleSubmit(e, email, username)}>
-            <label>Email</label>
+            <label>Email (same as Slack account)</label>
             <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <br/>
             <label>Slack ID</label>
