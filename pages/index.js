@@ -44,7 +44,7 @@ export default function Home() {
             <label>Email</label>
             <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <br/>
-            <label>Slack Username</label>
+            <label>Slack ID</label>
             <input type="text" id="slack" value={username} onChange={(e) => setUsername(e.target.value)} />
             <br/>
             <button type="submit" id="submit">Submit</button>
